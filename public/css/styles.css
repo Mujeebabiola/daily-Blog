@@ -1,0 +1,67 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    background-color: black;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #1abc9c;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
+
+#title,#message{
+    margin:10px;
+    width: 80%;
+}
+#message{
+    height: 400px;
+}
+form{
+    align-items: center;
+}
+.yesornoform{
+    background-color: green;
+    width: 40%;
+    position: absolute;
+    right: 30%;
+    top: 20%;
+    background: grey;
+}
+.yesorno{
+    position: relative;
+    left : 40%;
+    padding: 20px;
+}
+.yes{
+    margin-left: 1%;
+}
+h1{
+    position: relative;
+    left: 20%;
+}

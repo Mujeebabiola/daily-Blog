@@ -1,0 +1,14 @@
+<%- include('partials/header'); -%>
+<h1 id="p2">Home Page</h1>
+
+<p>
+    <%= HomeDisplay %> 
+</p>
+<% var i=0; %> 
+ <%while(i<posts.length){%> 
+    <h1><%= posts[i].title %> </h1>
+    <p><%= posts[i].Post.slice(0,50) %>...<a href="/post/<%=posts[i].title %> ">read full page</a></p>
+    <% i = i+1 %> 
+<%}%> 
+<script>document.getElementById("p2").style.color = "black";</script>
+<%- include('partials/footer'); -%>

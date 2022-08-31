@@ -46,12 +46,10 @@ form{
     align-items: center;
 }
 .yesornoform{
-    background-color: green;
     width: 40%;
     position: absolute;
     right: 30%;
     top: 20%;
-    background: grey;
 }
 .yesorno{
     position: relative;
@@ -60,8 +58,4 @@ form{
 }
 .yes{
     margin-left: 1%;
-}
-h1{
-    position: relative;
-    left: 20%;
 }

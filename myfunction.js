@@ -17,5 +17,4 @@ function PurifyString(word){
     return result.toLowerCase()
    
 }
-console.log(PurifyString("M_ujeeb-abiola"))
 module.exports= PurifyString;
